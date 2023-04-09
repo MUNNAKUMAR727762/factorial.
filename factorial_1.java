@@ -10,6 +10,7 @@ public class factorial_1 {
 		System.out.print("enter the number:-  ");
 		int n=sc.nextInt();
 		for(int i=1; i<=n; i++) {
+			//sum *=i;
 			sum=sum*i;
 			//System.out.println(sum);
 		}
